@@ -1,6 +1,5 @@
 {
   "name": "portfolio",
-  "homepage": "https://tomascanevaro.github.io/portfolio/",
   "version": "0.0.0",
   "private": true,
   "type": "module",
