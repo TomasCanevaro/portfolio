@@ -16,10 +16,9 @@ import ProjectCard from '../components/ProjectCard.vue'
 
 const projects = [
 {
-    title: 'Weather App',
-    description: 'A Vue app that shows weather using an API.',
-    github: 'https://github.com/yourusername/weather-app',
-    live: 'https://yourusername.github.io/weather-app',
+    title: 'Angular Homes App',
+    description: 'Angular app for managing homes and properties.',
+    github: 'https://github.com/TomasCanevaro/Angular-HomesApp',
 },
 // Add more projects!
 ]
