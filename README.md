@@ -1,4 +1,5 @@
-#To Deploy to GH-Pages
+#To Deploy to Vercel
 
+npm run build
 git add + commit + push
-npm run deploy
+deploy in Vercel
