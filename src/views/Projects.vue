@@ -16,10 +16,19 @@ import ProjectCard from '../components/ProjectCard.vue'
 
 const projects = [
 {
+    title: 'Spring Expense Tracker',
+    description: 'Expense Tracker written in Spring Boot',
+    github: 'https://github.com/TomasCanevaro/spring-expense-tracker',
+},
+{
     title: 'Angular Homes App',
     description: 'Angular app for managing homes and properties.',
     github: 'https://github.com/TomasCanevaro/Angular-HomesApp',
 },
-// Add more projects!
+{
+    title: 'React Movies Site',
+    description: 'Movies Reviews Site',
+    github: 'https://github.com/TomasCanevaro/react-movies-site',
+},
 ]
 </script>
