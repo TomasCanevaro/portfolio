@@ -18,17 +18,17 @@ const projects = [
 {
     title: 'Spring Expense Tracker',
     description: 'Expense Tracker written in Spring Boot',
-    github: 'https://github.com/TomasCanevaro/spring-expense-tracker',
-},
-{
-    title: 'Angular Homes App',
-    description: 'Angular app for managing homes and properties.',
-    github: 'https://github.com/TomasCanevaro/Angular-HomesApp',
+    github: 'https://github.com/TomasCanevaro/Spring-Expense-Tracker',
 },
 {
     title: 'React Movies Site',
     description: 'Movies Reviews Site',
     github: 'https://github.com/TomasCanevaro/react-movies-site',
 },
+{
+    title: 'Post Board App',
+    description: 'Fullstack Post Board web-site made in Node + Express and NextJS',
+    github: 'https://github.com/TomasCanevaro/PostBoardApp',
+}
 ]
 </script>
