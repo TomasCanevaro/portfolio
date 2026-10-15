@@ -37,7 +37,7 @@ function ProjectLoading() {
           <div className="h-4 w-32 rounded bg-zinc-800" />
           <div className="h-12 w-2/3 rounded bg-zinc-800" />
           <div className="h-24 max-w-2xl rounded bg-zinc-800" />
-          <div className="aspect-video rounded-xl bg-zinc-900" />
+          <div className="aspect-video rounded-xl bg-[#192b44]" />
         </div>
       </Container>
     </main>
@@ -62,17 +62,17 @@ async function ProjectContent({
       <Container>
         <Link
           href="/#projects"
-          className="mb-10 inline-block text-sm text-zinc-400 transition-colors hover:text-zinc-100"
+          className="mb-10 inline-block text-sm text-[#a9bad0] transition-colors hover:text-[#e8eef7]"
         >
           ← Back to Projects
         </Link>
 
         <div className="max-w-3xl">
-          <h1 className="mb-6 text-4xl font-bold tracking-tight text-zinc-100 sm:text-5xl">
+          <h1 className="mb-6 text-4xl font-bold tracking-tight text-[#e8eef7] sm:text-5xl">
             {project.title}
           </h1>
 
-          <p className="mb-8 text-lg leading-relaxed text-zinc-400">
+          <p className="mb-8 text-lg leading-relaxed text-[#a9bad0]">
             {project.longDescription ?? project.description}
           </p>
 
@@ -80,7 +80,7 @@ async function ProjectContent({
             {project.technologies.map((technology) => (
               <span
                 key={technology}
-                className="rounded-md border border-zinc-800 bg-zinc-900 px-3 py-1.5 text-sm text-zinc-400"
+                className="rounded-md border border-[#30445e] bg-[#192b44] px-3 py-1.5 text-sm text-[#a9bad0]"
               >
                 {technology}
               </span>
@@ -113,7 +113,7 @@ async function ProjectContent({
         </div>
 
         {project.image && (
-          <div className="relative aspect-video overflow-hidden rounded-xl border border-zinc-800 bg-zinc-900">
+          <div className="relative aspect-video overflow-hidden rounded-xl border border-[#30445e] bg-[#192b44]">
             <Image
               src={project.image}
               alt={`Screenshot of ${project.title}`}

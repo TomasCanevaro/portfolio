@@ -11,7 +11,7 @@ export default function Home() {
       <section className="flex min-h-[70vh] items-center py-20">
         <Container>
           <div className="max-w-2xl">
-            <p className="mb-4 text-sm font-medium tracking-widest text-zinc-400 uppercase">
+            <p className="mb-4 text-sm font-medium tracking-widest text-[#a9bad0] uppercase">
               Software Developer
             </p>
 
@@ -19,7 +19,7 @@ export default function Home() {
               Hi, I&apos;m Tomas.
             </h1>
 
-            <p className="max-w-xl text-lg leading-relaxed text-zinc-400">
+            <p className="max-w-xl text-lg leading-relaxed text-[#a9bad0]">
               I build modern applications and enjoy solving problems
               through clean, efficient, and maintainable code.
             </p>

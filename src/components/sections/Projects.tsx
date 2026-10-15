@@ -7,11 +7,11 @@ export default function Projects() {
   return (
     <section id="projects" className="py-24">
       <Container>
-        <h2 className="mb-4 text-3xl font-semibold tracking-tight text-zinc-100">
+        <h2 className="mb-4 text-3xl font-semibold tracking-tight text-[#e8eef7]">
           Projects
         </h2>
 
-        <p className="mb-10 max-w-2xl text-zinc-400">
+        <p className="mb-10 max-w-2xl text-[#a9bad0]">
           A selection of projects I&apos;ve worked on,
           showcasing different technologies and approaches
           to software development.

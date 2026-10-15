@@ -6,11 +6,11 @@ export default function About() {
     <section id="about" className="py-24">
       <Container>
         <div className="max-w-3xl">
-          <h2 className="mb-8 text-3xl font-semibold tracking-tight text-zinc-100">
+          <h2 className="mb-8 text-3xl font-semibold tracking-tight text-[#e8eef7]">
             About Me
           </h2>
 
-          <div className="space-y-5 text-lg leading-relaxed text-zinc-400">
+          <div className="space-y-5 text-lg leading-relaxed text-[#a9bad0]">
             <p>
               I&apos;m a software developer who enjoys building
               applications and exploring new technologies.

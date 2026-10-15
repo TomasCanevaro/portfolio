@@ -1,23 +1,22 @@
+
 @import "tailwindcss";
 
 :root {
-  --background: #0a0a0a;
-  --foreground: #ededed;
-  --muted: #a1a1aa;
-  --border: #27272a;
+  --background: #101d32;
+  --foreground: #e8eef7;
+  --muted: #a9bad0;
+  --border: #30445e;
 }
 
 * {
   box-sizing: border-box;
 }
 
-
 @media (prefers-reduced-motion: no-preference) {
   html {
     scroll-behavior: smooth;
   }
 }
-
 
 body {
   margin: 0;
@@ -27,6 +26,6 @@ body {
 }
 
 ::selection {
-  background: #3f3f46;
+  background: #42618a;
   color: #ffffff;
 }

@@ -10,7 +10,7 @@ const navLinks = [
 
 export default function Navbar() {
   return (
-    <header className="border-b border-zinc-800/70">
+    <header className="border-b border-[#30445e]">
       <Container>
         <nav
           aria-label="Main navigation"
@@ -18,7 +18,7 @@ export default function Navbar() {
         >
           <Link
             href="/"
-            className="shrink-0 text-lg font-semibold tracking-tight text-zinc-100"
+            className="shrink-0 text-lg font-semibold tracking-tight text-[#e8eef7]"
           >
             Portfolio<span className="text-zinc-500">.</span>
           </Link>
@@ -28,7 +28,7 @@ export default function Navbar() {
               <Link
                 key={link.label}
                 href={link.href}
-                className="text-sm text-zinc-400 transition-colors hover:text-zinc-100"
+                className="text-sm text-[#a9bad0] transition-colors hover:text-[#e8eef7]"
               >
                 {link.label}
               </Link>
