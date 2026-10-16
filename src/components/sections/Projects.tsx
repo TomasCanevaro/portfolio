@@ -5,7 +5,7 @@ import { projects } from "@/data/projects";
 
 export default function Projects() {
   return (
-    <section id="projects" className="scroll-mt-20 py-24">
+    <section id="projects" className="scroll-mt-24 py-16 sm:py-24">
       <Container>
         <h2 className="mb-4 text-3xl font-semibold tracking-tight text-[#e8eef7]">
           Projects
@@ -17,7 +17,7 @@ export default function Projects() {
           to software development.
         </p>
 
-        <div className="grid gap-6 md:grid-cols-2">
+        <div className="grid grid-cols-1 gap-6 md:grid-cols-2">
           {projects.map((project) => (
             <ProjectCard key={project.id} project={project} />
           ))}

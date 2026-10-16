@@ -27,14 +27,14 @@ export default function Hero() {
           <div className="mt-10 flex flex-wrap gap-4">
             <a
               href="#projects"
-              className="rounded-lg bg-[#e8eef7] px-6 py-3 text-sm font-semibold text-[#101d32] transition-colors motion-safe:transition-transform motion-safe:duration-200 motion-safe:hover:-translate-y-0.5 hover:bg-white"
+              className="rounded-lg bg-[#e8eef7] px-6 py-3 text-sm font-semibold text-[#101d32] transition-colors motion-safe:transition-transform motion-safe:duration-200 motion-safe:hover:-translate-y-0.5 hover:bg-white focus-ring"
             >
               View My Projects ↗
             </a>
 
             <a
               href="#contact"
-              className="rounded-lg border border-[#30445e] px-6 py-3 text-sm font-semibold text-[#e8eef7] transition-colors motion-safe:transition-transform motion-safe:duration-200 motion-safe:hover:-translate-y-0.5 hover:border-sky-400"
+              className="rounded-lg border border-[#30445e] px-6 py-3 text-sm font-semibold text-[#e8eef7] transition-colors motion-safe:transition-transform motion-safe:duration-200 motion-safe:hover:-translate-y-0.5 hover:border-sky-400 focus-ring"
             >
               Get In Touch
             </a>
@@ -45,7 +45,7 @@ export default function Hero() {
               href="https://github.com/TomasCanevaro"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-sm text-[#a9bad0] transition-colors hover:text-white"
+              className="text-sm text-[#a9bad0] transition-colors hover:text-white focus-ring"
             >
               GitHub ↗
             </a>
@@ -54,7 +54,7 @@ export default function Hero() {
               href="https://www.linkedin.com/in/tomas-canevaro-b243b5145/"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-sm text-[#a9bad0] transition-colors hover:text-white"
+              className="text-sm text-[#a9bad0] transition-colors hover:text-white focus-ring"
             >
               LinkedIn ↗
             </a>

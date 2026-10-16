@@ -11,9 +11,9 @@ export default function ProjectCard({
   project,
 }: ProjectCardProps) {
   return (
-    <article className="flex h-full flex-col overflow-hidden rounded-xl border border-[#30445e] bg-[#192b44] transition-colors hover:border-zinc-600">
+    <article className="group flex h-full flex-col overflow-hidden rounded-xl border border-[#30445e] bg-[#192b44] transition-colors duration-200 hover:border-sky-400/50">
       {project.image && (
-        <div className="relative aspect-video overflow-hidden border-b border-[#30445e] bg-[#192b44]">
+        <div className="relative aspect-video w-full overflow-hidden border-b border-[#30445e] bg-[#192b44]">
           <Image
             src={project.image}
             alt={`Screenshot of ${project.title}`}
@@ -24,12 +24,12 @@ export default function ProjectCard({
         </div>
       )}
 
-      <div className="flex flex-1 flex-col p-6">
+      <div className="flex flex-1 flex-col p-5 sm:p-6">
         
-        <h3 className="mb-3 text-xl font-semibold text-[#e8eef7]">
+        <h3 className="text-xl font-semibold tracking-tight text-[#e8eef7] sm:text-2xl">
           <Link
             href={`/projects/${project.id}`}
-            className="transition-colors hover:text-[#a9bad0]"
+            className="transition-colors hover:text-[#a9bad0] focus-ring"
           >
             {project.title}
           </Link>
@@ -39,7 +39,7 @@ export default function ProjectCard({
           {project.description}
         </p>
 
-        <div className="mb-6 flex flex-wrap gap-2">
+        <div className="mt-4 flex flex-wrap gap-2">
           {project.technologies.map((technology) => (
             <span
               key={technology}
@@ -56,7 +56,7 @@ export default function ProjectCard({
               href={project.githubUrl}
               target="_blank"
               rel="noopener noreferrer"
-              className="text-sm font-medium text-zinc-300 transition-colors hover:text-white"
+              className="text-sm font-medium text-zinc-300 transition-colors hover:text-white focus-ring"
             >
               GitHub ↗
             </a>
@@ -67,7 +67,7 @@ export default function ProjectCard({
               href={project.liveUrl}
               target="_blank"
               rel="noopener noreferrer"
-              className="text-sm font-medium text-zinc-300 transition-colors hover:text-white"
+              className="text-sm font-medium text-zinc-300 transition-colors hover:text-white focus-ring"
             >
               Live Demo ↗
             </a>

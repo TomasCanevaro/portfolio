@@ -3,7 +3,7 @@ import Container from "@/components/layout/Container";
 
 export default function Contact() {
   return (
-    <section id="contact" className="scroll-mt-20 py-24">
+    <section id="contact" className="scroll-mt-24 py-16 sm:py-24">
       <Container>
         <div className="max-w-2xl">
           <h2 className="mb-6 text-3xl font-semibold tracking-tight text-[#e8eef7]">
@@ -19,7 +19,7 @@ export default function Contact() {
           
           <a
            href="mailto:your.email@example.com"
-           className="inline-block text-lg font-medium text-zinc-200 underline decoration-zinc-600 underline-offset-4 transition-colors hover:text-white hover:decoration-zinc-300"
+           className="inline-block text-lg font-medium text-zinc-200 underline decoration-zinc-600 underline-offset-4 transition-colors hover:text-white hover:decoration-zinc-300 focus-ring"
            >
            tomasjaviercanevaro@gmail.com
           </a>
@@ -29,7 +29,7 @@ export default function Contact() {
               href="https://github.com/TomasCanevaro"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-sm text-[#a9bad0] transition-colors hover:text-[#e8eef7]"
+              className="text-sm text-[#a9bad0] transition-colors hover:text-[#e8eef7] focus-ring"
             >
               GitHub ↗
             </a>
@@ -38,7 +38,7 @@ export default function Contact() {
               href="https://www.linkedin.com/in/tomas-canevaro-b243b5145/"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-sm text-[#a9bad0] transition-colors hover:text-[#e8eef7]"
+              className="text-sm text-[#a9bad0] transition-colors hover:text-[#e8eef7] focus-ring"
             >
               LinkedIn ↗
             </a>
