@@ -22,7 +22,7 @@ const technologies = [
 
 export default function TechStack() {
   return (
-    <section id="skills" className="py-24">
+    <section id="skills" className="scroll-mt-20 py-24">
       <Container>
         <h2 className="mb-10 text-3xl font-semibold tracking-tight text-[#e8eef7]">
           Tech Stack

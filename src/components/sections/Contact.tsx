@@ -3,7 +3,7 @@ import Container from "@/components/layout/Container";
 
 export default function Contact() {
   return (
-    <section id="contact" className="py-24">
+    <section id="contact" className="scroll-mt-20 py-24">
       <Container>
         <div className="max-w-2xl">
           <h2 className="mb-6 text-3xl font-semibold tracking-tight text-[#e8eef7]">
