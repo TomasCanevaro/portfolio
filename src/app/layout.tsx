@@ -10,6 +10,7 @@ const geist = Geist({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://tomas-dev-portfolio.vercel.app/"),
   title: {
     default: "Tomas | Software Developer",
     template: "%s | Tomas",
