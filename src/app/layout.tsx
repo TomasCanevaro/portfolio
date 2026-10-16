@@ -10,9 +10,28 @@ const geist = Geist({
 });
 
 export const metadata: Metadata = {
-  title: "Tomas | Software Developer",
+  title: {
+    default: "Tomas | Software Developer",
+    template: "%s | Tomas",
+  },
   description:
-    "Personal portfolio showcasing my projects, skills, and experience as a software developer.",
+    "Portfolio of Tomas, a software developer building modern web applications with Go, Python, React, Next.js, and PostgreSQL.",
+  keywords: [
+    "Tomas",
+    "Software Developer",
+    "Full Stack Developer",
+    "Go",
+    "Python",
+    "React",
+    "Next.js",
+    "Portfolio",
+  ],
+  openGraph: {
+    title: "Tomas | Software Developer",
+    description:
+      "Explore my projects, technical skills, and experience building modern web applications.",
+    type: "website",
+  },
 };
 
 export default function RootLayout({

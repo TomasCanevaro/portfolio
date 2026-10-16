@@ -1,4 +1,5 @@
 
+import type { Metadata } from "next";
 import { Suspense } from "react";
 import Image from "next/image";
 import Link from "next/link";
@@ -6,6 +7,33 @@ import { notFound } from "next/navigation";
 
 import Container from "@/components/layout/Container";
 import { projects } from "@/data/projects";
+
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ id: string }>;
+}): Promise<Metadata> {
+  const { id } = await params;
+
+  const project = projects.find((project) => project.id === id);
+
+  if (!project) {
+    return {
+      title: "Project Not Found",
+    };
+  }
+
+  return {
+    title: project.title,
+    description: project.description,
+    openGraph: {
+      title: project.title,
+      description: project.description,
+      type: "article",
+    },
+  };
+}
 
 type ProjectPageProps = {
   params: Promise<{
