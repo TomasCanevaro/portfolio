@@ -26,13 +26,13 @@ export default function Navbar() {
 
           <div className="flex flex-wrap items-center justify-center gap-x-6 gap-y-2">
             {navLinks.map((link) => (
-              <Link
+              <a
                 key={link.label}
                 href={link.href}
-                className="text-sm text-[#a9bad0] transition-colors hover:text-[#e8eef7] focus-visible:rounded-sm focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-sky-400"
+                className="text-sm text-[#a9bad0] transition-colors hover:text-[#e8eef7] focus-ring"
               >
                 {link.label}
-              </Link>
+              </a>
             ))}
           </div>
         </nav>
